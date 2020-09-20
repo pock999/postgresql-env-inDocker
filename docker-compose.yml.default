@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgres:
+    image: "postgres:10"
+    container_name: postgresqldocker
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: 帳號
+      POSTGRES_PASSWORD: 密碼
+      POSTGRES_ROOT_PASSWORD: 密碼
+      SERVICE_NAME: postgresql
