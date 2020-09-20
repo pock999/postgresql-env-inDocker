@@ -1,4 +1,4 @@
-# 在docker建立mysql server
+# 在docker建立postgresql server
 
 # Step
 
